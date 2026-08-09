@@ -123,9 +123,16 @@ Same-setup scan-word comparison:
 | `0x0000` | `scan_debug_req0000_hold.hex` | -1.408 uA | -1.986 uA | -0.299 uA | -1.958 uA |
 | `0x8000` | `scan_debug_cell00_set_hold.hex` | -0.525 uA | -2.728 uA | +0.270 uA | -0.646 uA |
 
+Additional `0x8000` set-rail rerun:
+
+| Scan word | DAC change | Saleae A10-A9 post-pre | ADC A2-A3 post-pre | ADC A0-A1 post-pre | ADC A4-A5 post-pre |
+|---|---|---:|---:|---:|---:|
+| `0x8000` | `Vcc_set = 3.0 V`, `Vcc_wl_set = 2.5 V` | -1.596 uA | +0.566 uA | -0.733 uA | -1.054 uA |
+
 The current data does not show a clean single-channel current increase from
 internal scan debug under these rails. The detailed note includes absolute
-timing/current waveform plots for both scan words.
+timing/current waveform plots for both scan words and the `Vcc_set = 3.0 V`
+rerun.
 
 ## Remote Target
 

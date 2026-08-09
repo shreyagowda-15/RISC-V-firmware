@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="Scan-debug request/latch 0x8000 timing with absolute currents at Vcc_set 3.0 V">
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#1f2937}.title{font-size:22px;font-weight:700}.small{font-size:12px;fill:#4b5563}.muted{fill:#6b7280}.axis{stroke:#6b7280;stroke-width:1}.edge{stroke:#111827;stroke-dasharray:5 5;stroke-width:1}.lane{stroke:#e5e7eb;stroke-width:1}.sig{fill:none;stroke:#2563eb;stroke-width:2}.cur{fill:none;stroke:#ea580c;stroke-width:2}.phase{opacity:.55}</style>
+<text x="24" y="34" class="title">Scan-debug request/latch 0x8000 timing with absolute currents</text>
+<text x="24" y="58" class="small">Firmware scan_debug_cell00_set_hold.hex. DAC rails: Vcc_set=3.0V, Vcc_wl_set=2.5V; read/reset rails 0V. Current labels are absolute magnitudes.</text>
+<rect class="phase" x="296.0" y="82" width="116.1" height="600" fill="#d9ead3"/>
+<text x="354.1" y="102" text-anchor="middle">pre</text>
+<text x="354.1" y="122" class="small" text-anchor="middle">2.752-8.452s</text>
+<rect class="phase" x="424.3" y="82" width="86.1" height="600" fill="#fce5cd"/>
+<text x="467.3" y="102" text-anchor="middle">TM low / reset boot</text>
+<text x="467.3" y="122" class="small" text-anchor="middle">9.052-13.279s</text>
+<rect class="phase" x="528.7" y="82" width="611.3" height="600" fill="#d9eaf7"/>
+<text x="834.4" y="102" text-anchor="middle">scan-debug hold</text>
+<text x="834.4" y="122" class="small" text-anchor="middle">14.179-44.200s</text>
+<line class="edge" x1="418.2" y1="72" x2="418.2" y2="692"/>
+<text x="423.2" y="78" class="small">TM low 8.752s</text>
+<line class="edge" x1="516.5" y1="72" x2="516.5" y2="692"/>
+<text x="521.5" y="78" class="small">TM high 13.579s</text>
+<text x="24" y="140" font-weight="700">TM</text>
+<text x="24" y="160" class="small">D6 measured</text>
+<line class="lane" x1="240" y1="160" x2="1140" y2="160"/>
+<polyline class="sig" points="240.0,125 418.2,125 418.2,160 516.5,160 516.5,125 1140.0,125"/>
+<text x="1140" y="142" class="muted" text-anchor="end">high-low-high</text>
+<text x="24" y="215" font-weight="700">Reset</text>
+<text x="24" y="235" class="small">D5 measured</text>
+<line class="lane" x1="240" y1="235" x2="1140" y2="235"/>
+<line class="sig" x1="240" y1="235" x2="1140" y2="235" opacity=".55"/>
+<text x="1140" y="217" class="muted" text-anchor="end">probe stayed low</text>
+<text x="24" y="290" font-weight="700">ScanInDL</text>
+<text x="24" y="310" class="small">D8 measured</text>
+<line class="lane" x1="240" y1="310" x2="1140" y2="310"/>
+<line class="sig" x1="240" y1="310" x2="1140" y2="310" opacity=".55"/>
+<text x="1140" y="292" class="muted" text-anchor="end">LA stayed low; internal source word bit15 high</text>
+<text x="24" y="365" font-weight="700">Clock</text>
+<text x="24" y="385" class="small">D11 measured</text>
+<line class="lane" x1="240" y1="385" x2="1140" y2="385"/>
+<line class="sig" x1="240" y1="385" x2="1140" y2="385" opacity=".55"/>
+<text x="1140" y="367" class="muted" text-anchor="end">not visible on D11</text>
+<text x="24" y="460" font-weight="700">Saleae A10-A9</text>
+<text x="24" y="480" class="small">shifted to A2-A3 shunt</text>
+<line class="lane" x1="240" y1="480" x2="1140" y2="480"/>
+<polyline class="cur" points="296.0,448.0 412.1,448.0 424.3,492.0 510.4,492.0 528.7,472.3 1140.0,472.3"/>
+<text x="354.1" y="439.0" text-anchor="middle">1337.99 uA</text>
+<text x="467.3" y="483.0" text-anchor="middle">1335.10 uA</text>
+<text x="834.4" y="463.3" text-anchor="middle">1336.39 uA</text>
+<text x="24" y="535" font-weight="700">ADC A0-A1</text>
+<text x="24" y="555" class="small">set pair</text>
+<line class="lane" x1="240" y1="555" x2="1140" y2="555"/>
+<polyline class="cur" points="296.0,567.0 412.1,567.0 424.3,523.0 510.4,523.0 528.7,524.6 1140.0,524.6"/>
+<text x="354.1" y="558.0" text-anchor="middle">27.00 uA</text>
+<text x="467.3" y="514.0" text-anchor="middle">27.76 uA</text>
+<text x="834.4" y="515.6" text-anchor="middle">27.74 uA</text>
+<text x="24" y="610" font-weight="700">ADC A2-A3</text>
+<text x="24" y="630" class="small">read pair</text>
+<line class="lane" x1="240" y1="630" x2="1140" y2="630"/>
+<polyline class="cur" points="296.0,605.1 412.1,605.1 424.3,642.0 510.4,642.0 528.7,598.0 1140.0,598.0"/>
+<text x="354.1" y="596.1" text-anchor="middle">1833.48 uA</text>
+<text x="467.3" y="633.0" text-anchor="middle">1830.54 uA</text>
+<text x="834.4" y="589.0" text-anchor="middle">1834.05 uA</text>
+<text x="24" y="685" font-weight="700">ADC A4-A5</text>
+<text x="24" y="705" class="small">reset pair</text>
+<line class="lane" x1="240" y1="705" x2="1140" y2="705"/>
+<polyline class="cur" points="296.0,688.2 412.1,688.2 424.3,717.0 510.4,717.0 528.7,673.0 1140.0,673.0"/>
+<text x="354.1" y="679.2" text-anchor="middle">21.43 uA</text>
+<text x="467.3" y="708.0" text-anchor="middle">19.43 uA</text>
+<text x="834.4" y="664.0" text-anchor="middle">22.48 uA</text>
+<line class="axis" x1="240" y1="755" x2="1140" y2="755"/>
+<line class="axis" x1="240.0" y1="755" x2="240.0" y2="761"/>
+<text x="240.0" y="776" class="small" text-anchor="middle">0.0s</text>
+<line class="axis" x1="418.2" y1="755" x2="418.2" y2="761"/>
+<text x="418.2" y="776" class="small" text-anchor="middle">8.752s</text>
+<line class="axis" x1="516.5" y1="755" x2="516.5" y2="761"/>
+<text x="516.5" y="776" class="small" text-anchor="middle">13.579s</text>
+<line class="axis" x1="647.2" y1="755" x2="647.2" y2="761"/>
+<text x="647.2" y="776" class="small" text-anchor="middle">20.0s</text>
+<line class="axis" x1="850.9" y1="755" x2="850.9" y2="761"/>
+<text x="850.9" y="776" class="small" text-anchor="middle">30.0s</text>
+<line class="axis" x1="1054.5" y1="755" x2="1054.5" y2="761"/>
+<text x="1054.5" y="776" class="small" text-anchor="middle">40.0s</text>
+<line class="axis" x1="1140.0" y1="755" x2="1140.0" y2="761"/>
+<text x="1140.0" y="776" class="small" text-anchor="middle">44.2s</text>
+</svg>

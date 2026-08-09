@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Scan-debug 0x8000 Vcc_set comparison with absolute current magnitudes">
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#1f2937}.title{font-size:22px;font-weight:700}.small{font-size:12px;fill:#4b5563}.axis{stroke:#6b7280;stroke-width:1}.lane{stroke:#e5e7eb;stroke-width:1}.old{fill:none;stroke:#2563eb;stroke-width:2}.new{fill:none;stroke:#ea580c;stroke-width:2}.phase{opacity:.5}.muted{fill:#6b7280}</style>
+<text x="24" y="34" class="title">Scan-debug 0x8000 absolute current comparison by set-rail voltage</text>
+<text x="24" y="58" class="small">Blue = Vcc_set 1.7V run, orange = Vcc_set 3.0V run. Vcc_wl_set=2.5V; read/reset rails 0V. Labels are absolute magnitudes.</text>
+<rect x="240" y="82" width="210" height="560" class="phase" fill="#d9ead3"/>
+<text x="345.0" y="104" text-anchor="middle">pre</text>
+<rect x="470" y="82" width="170" height="560" class="phase" fill="#fce5cd"/>
+<text x="555.0" y="104" text-anchor="middle">TM low / reset boot</text>
+<rect x="660" y="82" width="470" height="560" class="phase" fill="#d9eaf7"/>
+<text x="895.0" y="104" text-anchor="middle">post scan-debug hold</text>
+<text x="805" y="42" class="small">Vcc_set 1.7V</text>
+<line class="old" x1="900" y1="38" x2="940" y2="38"/>
+<text x="960" y="42" class="small">Vcc_set 3.0V</text>
+<line class="new" x1="1060" y1="38" x2="1100" y2="38"/>
+<text x="24" y="165" font-weight="700">Saleae A10-A9</text>
+<text x="24" y="185" class="small">shifted to A2-A3</text>
+<line class="lane" x1="240" y1="195" x2="1130" y2="195"/>
+<polyline class="old" points="240.0,213.7 450.0,213.7 470.0,214.0 640.0,214.0 660.0,213.8 1130.0,213.8"/>
+<text x="345" y="237" class="small" text-anchor="middle">1.7V 642.25 uA</text>
+<text x="555" y="237" class="small" text-anchor="middle">1.7V 640.16 uA</text>
+<text x="895" y="237" class="small" text-anchor="middle">1.7V 641.73 uA</text>
+<polyline class="new" points="240.0,136.0 450.0,136.0 470.0,136.3 640.0,136.3 660.0,136.2 1130.0,136.2"/>
+<text x="345" y="125" class="small" text-anchor="middle">3.0V 1337.99 uA</text>
+<text x="555" y="125" class="small" text-anchor="middle">3.0V 1335.10 uA</text>
+<text x="895" y="125" class="small" text-anchor="middle">3.0V 1336.39 uA</text>
+<text x="24" y="300" font-weight="700">ADC A0-A1</text>
+<text x="24" y="320" class="small">set pair</text>
+<line class="lane" x1="240" y1="330" x2="1130" y2="330"/>
+<polyline class="old" points="240.0,293.9 450.0,293.9 470.0,297.5 640.0,297.5 660.0,323.8 1130.0,323.8"/>
+<text x="345" y="378" class="small" text-anchor="middle">1.7V 27.50 uA</text>
+<text x="555" y="378" class="small" text-anchor="middle">1.7V 27.47 uA</text>
+<text x="895" y="378" class="small" text-anchor="middle">1.7V 27.23 uA</text>
+<polyline class="new" points="240.0,355.0 450.0,355.0 470.0,271.0 640.0,271.0 660.0,274.1 1130.0,274.1"/>
+<text x="345" y="256" class="small" text-anchor="middle">3.0V 27.00 uA</text>
+<text x="555" y="256" class="small" text-anchor="middle">3.0V 27.76 uA</text>
+<text x="895" y="256" class="small" text-anchor="middle">3.0V 27.74 uA</text>
+<text x="24" y="435" font-weight="700">ADC A2-A3</text>
+<text x="24" y="455" class="small">read pair</text>
+<line class="lane" x1="240" y1="465" x2="1130" y2="465"/>
+<polyline class="old" points="240.0,483.7 450.0,483.7 470.0,484.0 640.0,484.0 660.0,483.9 1130.0,483.9"/>
+<text x="345" y="507" class="small" text-anchor="middle">1.7V 605.50 uA</text>
+<text x="555" y="507" class="small" text-anchor="middle">1.7V 600.64 uA</text>
+<text x="895" y="507" class="small" text-anchor="middle">1.7V 602.77 uA</text>
+<polyline class="new" points="240.0,406.0 450.0,406.0 470.0,406.2 640.0,406.2 660.0,406.0 1130.0,406.0"/>
+<text x="345" y="395" class="small" text-anchor="middle">3.0V 1833.48 uA</text>
+<text x="555" y="395" class="small" text-anchor="middle">3.0V 1830.54 uA</text>
+<text x="895" y="395" class="small" text-anchor="middle">3.0V 1834.05 uA</text>
+<text x="24" y="570" font-weight="700">ADC A4-A5</text>
+<text x="24" y="590" class="small">reset pair</text>
+<line class="lane" x1="240" y1="600" x2="1130" y2="600"/>
+<polyline class="old" points="240.0,619.0 450.0,619.0 470.0,535.0 640.0,535.0 660.0,610.4 1130.0,610.4"/>
+<text x="345" y="648" class="small" text-anchor="middle">1.7V 18.00 uA</text>
+<text x="555" y="648" class="small" text-anchor="middle">1.7V 24.29 uA</text>
+<text x="895" y="648" class="small" text-anchor="middle">1.7V 18.64 uA</text>
+<polyline class="new" points="240.0,579.2 450.0,579.2 470.0,605.8 640.0,605.8 660.0,565.2 1130.0,565.2"/>
+<text x="345" y="526" class="small" text-anchor="middle">3.0V 21.43 uA</text>
+<text x="555" y="526" class="small" text-anchor="middle">3.0V 19.43 uA</text>
+<text x="895" y="526" class="small" text-anchor="middle">3.0V 22.48 uA</text>
+<line class="axis" x1="240" y1="670" x2="1130" y2="670"/>
+<text x="240" y="696" class="small" text-anchor="middle">pre start</text>
+<text x="555" y="696" class="small" text-anchor="middle">TM-low window</text>
+<text x="895" y="696" class="small" text-anchor="middle">post hold</text>
+</svg>

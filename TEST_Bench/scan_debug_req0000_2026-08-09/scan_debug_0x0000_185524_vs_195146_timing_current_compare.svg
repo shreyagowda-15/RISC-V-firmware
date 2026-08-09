@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Scan-debug 0x0000 rerun absolute current comparison">
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#1f2937}.title{font-size:22px;font-weight:700}.small{font-size:12px;fill:#4b5563}.axis{stroke:#6b7280;stroke-width:1}.lane{stroke:#e5e7eb;stroke-width:1}.old{fill:none;stroke:#2563eb;stroke-width:2}.new{fill:none;stroke:#ea580c;stroke-width:2}.phase{opacity:.5}.muted{fill:#6b7280}</style>
+<text x="24" y="34" class="title">Scan-debug 0x0000 absolute current rerun comparison</text>
+<text x="24" y="58" class="small">Blue = earlier 18:55 run, orange = fresh 19:51 rerun. Vcc_set=1.7V, Vcc_wl_set=2.5V; read/reset rails 0V. Labels are absolute magnitudes.</text>
+<rect x="240" y="82" width="210" height="560" class="phase" fill="#d9ead3"/>
+<text x="345.0" y="104" text-anchor="middle">pre</text>
+<rect x="470" y="82" width="170" height="560" class="phase" fill="#fce5cd"/>
+<text x="555.0" y="104" text-anchor="middle">TM low / reset boot</text>
+<rect x="660" y="82" width="470" height="560" class="phase" fill="#d9eaf7"/>
+<text x="895.0" y="104" text-anchor="middle">post scan-debug hold</text>
+<text x="785" y="42" class="small">18:55 run</text>
+<line class="old" x1="855" y1="38" x2="895" y2="38"/>
+<text x="925" y="42" class="small">19:51 rerun</text>
+<line class="new" x1="1015" y1="38" x2="1055" y2="38"/>
+<text x="24" y="165" font-weight="700">Saleae A10-A9</text>
+<text x="24" y="185" class="small">shifted to A2-A3</text>
+<line class="lane" x1="240" y1="195" x2="1130" y2="195"/>
+<polyline class="old" points="240.0,130.0 450.0,130.0 470.0,152.8 640.0,152.8 660.0,145.5 1130.0,145.5"/>
+<text x="345" y="239" class="small" text-anchor="middle">18:55 645.63 uA</text>
+<text x="555" y="239" class="small" text-anchor="middle">18:55 643.55 uA</text>
+<text x="895" y="239" class="small" text-anchor="middle">18:55 644.22 uA</text>
+<polyline class="new" points="240.0,204.4 450.0,204.4 470.0,220.0 640.0,220.0 660.0,201.4 1130.0,201.4"/>
+<text x="345" y="125" class="small" text-anchor="middle">19:51 639.41 uA</text>
+<text x="555" y="125" class="small" text-anchor="middle">19:51 637.98 uA</text>
+<text x="895" y="125" class="small" text-anchor="middle">19:51 639.68 uA</text>
+<text x="24" y="300" font-weight="700">ADC A0-A1</text>
+<text x="24" y="320" class="small">set pair</text>
+<line class="lane" x1="240" y1="330" x2="1130" y2="330"/>
+<polyline class="old" points="240.0,337.2 450.0,337.2 470.0,349.0 640.0,349.0 660.0,311.7 1130.0,311.7"/>
+<text x="345" y="374" class="small" text-anchor="middle">18:55 26.99 uA</text>
+<text x="555" y="374" class="small" text-anchor="middle">18:55 26.85 uA</text>
+<text x="895" y="374" class="small" text-anchor="middle">18:55 27.29 uA</text>
+<polyline class="new" points="240.0,271.0 450.0,271.0 470.0,350.3 640.0,350.3 660.0,317.5 1130.0,317.5"/>
+<text x="345" y="260" class="small" text-anchor="middle">19:51 27.83 uA</text>
+<text x="555" y="260" class="small" text-anchor="middle">19:51 26.90 uA</text>
+<text x="895" y="260" class="small" text-anchor="middle">19:51 27.29 uA</text>
+<text x="24" y="435" font-weight="700">ADC A2-A3</text>
+<text x="24" y="455" class="small">read pair</text>
+<line class="lane" x1="240" y1="465" x2="1130" y2="465"/>
+<polyline class="old" points="240.0,400.0 450.0,400.0 470.0,402.8 640.0,402.8 660.0,428.6 1130.0,428.6"/>
+<text x="345" y="509" class="small" text-anchor="middle">18:55 605.18 uA</text>
+<text x="555" y="509" class="small" text-anchor="middle">18:55 604.98 uA</text>
+<text x="895" y="509" class="small" text-anchor="middle">18:55 603.19 uA</text>
+<polyline class="new" points="240.0,490.0 450.0,490.0 470.0,462.8 640.0,462.8 660.0,479.3 1130.0,479.3"/>
+<text x="345" y="395" class="small" text-anchor="middle">19:51 599.34 uA</text>
+<text x="555" y="395" class="small" text-anchor="middle">19:51 601.23 uA</text>
+<text x="895" y="395" class="small" text-anchor="middle">19:51 600.09 uA</text>
+<text x="24" y="570" font-weight="700">ADC A4-A5</text>
+<text x="24" y="590" class="small">reset pair</text>
+<line class="lane" x1="240" y1="600" x2="1130" y2="600"/>
+<polyline class="old" points="240.0,619.0 450.0,619.0 470.0,575.4 640.0,575.4 660.0,575.5 1130.0,575.5"/>
+<text x="345" y="644" class="small" text-anchor="middle">18:55 17.36 uA</text>
+<text x="555" y="644" class="small" text-anchor="middle">18:55 19.32 uA</text>
+<text x="895" y="644" class="small" text-anchor="middle">18:55 19.32 uA</text>
+<polyline class="new" points="240.0,541.0 450.0,541.0 470.0,542.7 640.0,542.7 660.0,578.5 1130.0,578.5"/>
+<text x="345" y="530" class="small" text-anchor="middle">19:51 21.14 uA</text>
+<text x="555" y="530" class="small" text-anchor="middle">19:51 21.06 uA</text>
+<text x="895" y="530" class="small" text-anchor="middle">19:51 19.46 uA</text>
+<line class="axis" x1="240" y1="670" x2="1130" y2="670"/>
+<text x="240" y="696" class="small" text-anchor="middle">pre start</text>
+<text x="555" y="696" class="small" text-anchor="middle">TM-low window</text>
+<text x="895" y="696" class="small" text-anchor="middle">post hold</text>
+</svg>
