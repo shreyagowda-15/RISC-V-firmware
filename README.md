@@ -124,8 +124,8 @@ Same-setup scan-word comparison:
 | `0x8000` | `scan_debug_cell00_set_hold.hex` | -0.525 uA | -2.728 uA | +0.270 uA | -0.646 uA |
 
 The current data does not show a clean single-channel current increase from
-internal scan debug under these rails. The detailed note includes the timing and
-current delta plots for both scan words.
+internal scan debug under these rails. The detailed note includes absolute
+timing/current waveform plots for both scan words.
 
 ## Remote Target
 

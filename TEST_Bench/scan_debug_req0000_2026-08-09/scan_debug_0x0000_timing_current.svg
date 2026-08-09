@@ -25,28 +25,24 @@
 <text x="466.2" y="212.8" text-anchor="middle">645.63 uA</text>
 <text x="586.2" y="233.2" text-anchor="middle">643.55 uA</text>
 <text x="895.7" y="226.6" text-anchor="middle">644.22 uA</text>
-<text x="1140" y="226.6" text-anchor="end" class="muted">post-pre -1.41 uA</text>
 <text x="24" y="284" font-weight="700">ADC A0-A1</text><text x="24" y="304" class="small">set pair</text>
 <line class="lane" x1="190" y1="300" x2="1140" y2="300"/>
 <polyline class="cur" points="405.0,300.6 527.5,300.6 540.4,298.1 632.0,298.1 651.4,305.9 1140.0,305.9"/>
 <text x="466.2" y="293.6" text-anchor="middle">-26.99 uA</text>
 <text x="586.2" y="291.1" text-anchor="middle">-26.85 uA</text>
 <text x="895.7" y="298.9" text-anchor="middle">-27.29 uA</text>
-<text x="1140" y="298.9" text-anchor="end" class="muted">post-pre -0.30 uA</text>
 <text x="24" y="356" font-weight="700">ADC A2-A3</text><text x="24" y="376" class="small">read pair</text>
 <line class="lane" x1="190" y1="372" x2="1140" y2="372"/>
 <polyline class="cur" points="405.0,364.0 527.5,364.0 540.4,366.0 632.0,366.0 651.4,384.0 1140.0,384.0"/>
 <text x="466.2" y="357.0" text-anchor="middle">605.18 uA</text>
 <text x="586.2" y="359.0" text-anchor="middle">604.98 uA</text>
 <text x="895.7" y="377.0" text-anchor="middle">603.19 uA</text>
-<text x="1140" y="377.0" text-anchor="end" class="muted">post-pre -1.99 uA</text>
 <text x="24" y="428" font-weight="700">ADC A4-A5</text><text x="24" y="448" class="small">reset pair</text>
 <line class="lane" x1="190" y1="444" x2="1140" y2="444"/>
 <polyline class="cur" points="405.0,436.1 527.5,436.1 540.4,455.9 632.0,455.9 651.4,455.9 1140.0,455.9"/>
 <text x="466.2" y="429.1" text-anchor="middle">-17.36 uA</text>
 <text x="586.2" y="448.9" text-anchor="middle">-19.32 uA</text>
 <text x="895.7" y="448.9" text-anchor="middle">-19.32 uA</text>
-<text x="1140" y="448.9" text-anchor="end" class="muted">post-pre -1.96 uA</text>
 <line class="axis" x1="190" y1="522" x2="1140" y2="522"/>
 <line class="axis" x1="190.0" y1="522" x2="190.0" y2="528"/>
 <text x="190.0" y="545" text-anchor="middle" class="small">0.000s</text>
