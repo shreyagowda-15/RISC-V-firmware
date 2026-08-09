@@ -94,6 +94,39 @@ current bench wiring is not one-to-one for every rail.
 | DAC[3] | Vcc_wl_set | Connected; currently programmed to 0 V idle |
 | DAC[4] | Vcc_wl_reset | Not connected in the current setup |
 
+## Scan-Debug Hardware Current Runs, 2026-08-09
+
+The latest internal management scan-debug current comparison is documented in:
+
+```text
+TEST_Bench/scan_debug_req0000_latest_run_2026-08-09.md
+```
+
+Bench setup:
+
+- Caravel management firmware drives scan debug internally.
+- External clock Teensy was not modified.
+- ADC/DAC Teensy set the DAC rails and sampled ADS1258 current channels.
+- Saleae analog A10-A9 was shifted to probe the ADC A2-A3 shunt.
+- DAC rails for both comparison runs:
+  - `Vcc_read = 0 V`
+  - `Vcc_set = 1.7 V`
+  - `Vcc_reset = 0 V`
+  - `Vcc_wl_read = 0 V`
+  - `Vcc_wl_set = 2.5 V`
+  - `Vcc_wl_reset = 0 V`
+
+Same-setup scan-word comparison:
+
+| Scan word | Firmware image | Saleae A10-A9 post-pre | ADC A2-A3 post-pre | ADC A0-A1 post-pre | ADC A4-A5 post-pre |
+|---|---|---:|---:|---:|---:|
+| `0x0000` | `scan_debug_req0000_hold.hex` | -1.408 uA | -1.986 uA | -0.299 uA | -1.958 uA |
+| `0x8000` | `scan_debug_cell00_set_hold.hex` | -0.525 uA | -2.728 uA | +0.270 uA | -0.646 uA |
+
+The current data does not show a clean single-channel current increase from
+internal scan debug under these rails. The detailed note includes the timing and
+current delta plots for both scan words.
+
 ## Remote Target
 
 ```text

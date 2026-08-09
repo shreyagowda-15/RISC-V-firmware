@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="Scan debug request 0x0000 current delta plot">
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#1f2937}.title{font-size:22px;font-weight:700}.small{font-size:12px;fill:#4b5563}.axis{stroke:#6b7280;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}.tm{fill:#f97316}.post{fill:#2563eb}</style>
+<text x="24" y="34" class="title">Current deltas by measurement path</text>
+<text x="24" y="56" class="small">Mean current change relative to pre-reset window. Units: uA.</text>
+<line class="grid" x1="340.0" y1="70" x2="340.0" y2="450"/>
+<text x="340.0" y="474" text-anchor="middle" class="small">-2.0</text>
+<line class="grid" x1="465.0" y1="70" x2="465.0" y2="450"/>
+<text x="465.0" y="474" text-anchor="middle" class="small">-1.5</text>
+<line class="grid" x1="590.0" y1="70" x2="590.0" y2="450"/>
+<text x="590.0" y="474" text-anchor="middle" class="small">-1.0</text>
+<line class="grid" x1="715.0" y1="70" x2="715.0" y2="450"/>
+<text x="715.0" y="474" text-anchor="middle" class="small">-0.5</text>
+<line class="grid" x1="840.0" y1="70" x2="840.0" y2="450"/>
+<text x="840.0" y="474" text-anchor="middle" class="small">0.0</text>
+<line class="axis" x1="840.0" y1="62" x2="840.0" y2="454"/>
+<line class="axis" x1="240" y1="450" x2="940" y2="450"/>
+<text x="24" y="98" font-weight="700">Saleae A10-A9 -> A2-A3</text>
+<rect class="tm" x="320.4" y="78" width="519.6" height="18"/>
+<text x="314.4" y="92" text-anchor="end" class="small">TM-pre -2.078</text>
+<rect class="post" x="487.9" y="104" width="352.1" height="18"/>
+<text x="481.9" y="118" text-anchor="end" class="small">Post-pre -1.408</text>
+<text x="24" y="184" font-weight="700">ADC A2-A3 read</text>
+<rect class="tm" x="791.1" y="164" width="48.9" height="18"/>
+<text x="785.1" y="178" text-anchor="end" class="small">TM-pre -0.196</text>
+<rect class="post" x="343.5" y="190" width="496.5" height="18"/>
+<text x="337.5" y="204" text-anchor="end" class="small">Post-pre -1.986</text>
+<text x="24" y="270" font-weight="700">ADC A0-A1 set</text>
+<rect class="tm" x="840.0" y="250" width="34.4" height="18"/>
+<text x="880.4" y="264" text-anchor="start" class="small">TM-pre +0.138</text>
+<rect class="post" x="765.3" y="276" width="74.7" height="18"/>
+<text x="759.3" y="290" text-anchor="end" class="small">Post-pre -0.299</text>
+<text x="24" y="356" font-weight="700">ADC A4-A5 reset</text>
+<rect class="tm" x="349.0" y="336" width="491.0" height="18"/>
+<text x="343.0" y="350" text-anchor="end" class="small">TM-pre -1.964</text>
+<rect class="post" x="350.6" y="362" width="489.4" height="18"/>
+<text x="344.6" y="376" text-anchor="end" class="small">Post-pre -1.958</text>
+<rect class="tm" x="735" y="28" width="14" height="14"/><text x="756" y="40" class="small">TM-low minus pre</text>
+<rect class="post" x="735" y="50" width="14" height="14"/><text x="756" y="62" class="small">Post minus pre</text>
+</svg>
