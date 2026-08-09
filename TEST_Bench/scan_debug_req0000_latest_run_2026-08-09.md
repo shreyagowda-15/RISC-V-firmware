@@ -99,7 +99,7 @@ Analysis windows:
 All currents are reported in microamps. For the shunts, `1 mV` differential is
 treated as `1 uA`.
 
-![Scan-debug 0x0000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_req0000_current_deltas.svg)
+![Scan-debug 0x0000 timing and current waveform](scan_debug_req0000_2026-08-09/scan_debug_0x0000_timing_current.svg)
 
 | Measurement path | Window | Samples | Mean | Std dev | Min | Max | Span |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -222,7 +222,7 @@ Analysis windows:
 
 Current measurements:
 
-![Scan-debug 0x8000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_0x8000_current_deltas.svg)
+![Scan-debug 0x8000 timing and current waveform](scan_debug_req0000_2026-08-09/scan_debug_0x8000_timing_current.svg)
 
 | Measurement path | Window | Samples | Mean | Std dev | Min | Max | Span |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -253,6 +253,8 @@ Mean current deltas:
 Both runs used the same set-path DAC rails and the Saleae analog probe shifted
 to the ADC `A2-A3` shunt. Neither run shows a clean single-channel current
 increase from internal scan debug.
+
+![Scan-debug 0x0000 vs 0x8000 timing and current waveform comparison](scan_debug_req0000_2026-08-09/scan_debug_0x0000_vs_0x8000_timing_current_compare.svg)
 
 | Scan word | Saleae A10-A9 post-pre | ADC A2-A3 post-pre | ADC A0-A1 post-pre | ADC A4-A5 post-pre |
 |---|---:|---:|---:|---:|
