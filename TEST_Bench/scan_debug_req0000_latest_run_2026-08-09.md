@@ -99,6 +99,8 @@ Analysis windows:
 All currents are reported in microamps. For the shunts, `1 mV` differential is
 treated as `1 uA`.
 
+![Scan-debug 0x0000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_req0000_current_deltas.svg)
+
 | Measurement path | Window | Samples | Mean | Std dev | Min | Max | Span |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Saleae A10-A9, shifted to A2-A3 | Pre | 178125 | 645.629608 | 324.739546 | 157.000000 | 1165.000000 | 1008.000000 |
@@ -122,8 +124,6 @@ Mean current deltas:
 | ADC A2-A3 read | -0.195510 uA | -1.986109 uA |
 | ADC A0-A1 set | +0.137720 uA | -0.298904 uA |
 | ADC A4-A5 reset | -1.964138 uA | -1.957786 uA |
-
-![Scan-debug 0x0000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_req0000_current_deltas.svg)
 
 ## Result
 
@@ -222,6 +222,8 @@ Analysis windows:
 
 Current measurements:
 
+![Scan-debug 0x8000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_0x8000_current_deltas.svg)
+
 | Measurement path | Window | Samples | Mean | Std dev | Min | Max | Span |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Saleae A10-A9, shifted to A2-A3 | Pre | 178125 | 642.252575 | 323.232873 | 157.000000 | 1165.000000 | 1008.000000 |
@@ -245,8 +247,6 @@ Mean current deltas:
 | ADC A2-A3 read | -4.864800 uA | -2.728219 uA |
 | ADC A0-A1 set | +0.032812 uA | +0.270113 uA |
 | ADC A4-A5 reset | -6.296669 uA | -0.645939 uA |
-
-![Scan-debug 0x8000 current deltas](scan_debug_req0000_2026-08-09/scan_debug_0x8000_current_deltas.svg)
 
 ### 0x0000 vs 0x8000 summary
 
