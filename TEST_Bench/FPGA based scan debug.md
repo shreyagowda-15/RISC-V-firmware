@@ -131,6 +131,21 @@ ADC/DAC connection and rail backup:
 | `Vcc_wl_set` | `2.5 V` |
 | `Vcc_wl_reset` | `0.0 V` |
 
+## Remote Access Backup
+
+| System | Access |
+| --- | --- |
+| FPGA Windows PC | `ssh geethika@100.116.216.70` |
+| FPGA Windows PC password | `Klok` |
+| FPGA Vivado path | `C:\Xilinx\Vivado\2019.1\bin\vivado.bat` |
+| FPGA project path | `C:\Users\geethika\zynq_scan_debug` |
+| Remote Ubuntu controlling Caravel / Saleae / Teensy | `ssh ubuntu-24-04@100.98.132.51` |
+| Remote Ubuntu Saleae API path | `/home/ubuntu-24-04/saleae-api` |
+| Remote Ubuntu Caravel utilities path | `/home/ubuntu-24-04/caravel_board/firmware/chipignite/util` |
+| Sudo password, when needed | `Naveen@2001` |
+| ADC/DAC Teensy on remote Ubuntu | `/dev/serial/by-id/usb-Teensyduino_USB_Serial_8829000-if00` |
+| Si5351 clock Teensy on remote Ubuntu | `/dev/serial/by-id/usb-Teensyduino_USB_Serial_10278510-if00` |
+
 ## Corrected ADC Current Measurements
 
 These currents are measured during the corrected-DAC-power rerun. ADC samples are run-level measurements and are not microsecond-resolved inside the `8.48 us` scan packet.
