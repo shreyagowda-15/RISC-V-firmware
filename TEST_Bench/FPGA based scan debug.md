@@ -6,7 +6,7 @@ The earlier ADC current readings should not be used, because DAC power VCC was a
 
 ## Latest Plot
 
-![Corrected DAC power scan-debug timing and ADC currents](scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current.svg)
+![Corrected DAC power scan-debug timing and ADC currents](scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current.png)
 
 ## Signal Sources
 
@@ -158,7 +158,8 @@ These currents are measured during the corrected-DAC-power rerun. ADC samples ar
 
 ## Files
 
-- Latest plot: `scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current.svg`
+- Latest plot PNG: `scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current.png`
+- Latest plot SVG: `scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current.svg`
 - Summary data: `scan_debug_req0000_2026-08-10/scan_debug_0x0000_corrected_dac_power_tm_dr_clk_current_summary.json`
 - Timing capture: `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/analysis.json`
 - ADC data: `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/adc_monitor.csv`
