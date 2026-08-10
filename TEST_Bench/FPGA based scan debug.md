@@ -1,6 +1,6 @@
 # FPGA Based Scan Debug
 
-This README documents only the latest corrected-DAC-power timing diagram for scan-debug request `0x0000`.
+This README documents only the latest corrected-DAC-power timing diagram for scan-debug request `0x0000`, with ADC current samples plotted against the same reset-relative timing axis.
 
 The earlier ADC current readings should not be used, because DAC power VCC was applied incorrectly before this rerun.
 
@@ -16,7 +16,7 @@ The earlier ADC current readings should not be used, because DAC power VCC was a
 | `DR` / `ScanInDR` | Measured on Saleae `D6` in capture `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power` |
 | `DL` | Projected low, because scan request `0x0000` sends dummy `0` plus sixteen `0` data bits |
 | `CLK` | Measured on Saleae `D3` in post-correction clock check `scan_debug_req0000_2026-08-10/capture_122255_corrected_dac_d3_health` |
-| ADC currents | Measured by ADC Teensy in `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/adc_monitor.csv` |
+| ADC currents | Measured by ADC Teensy in `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/adc_monitor.csv` and plotted on the same reset-relative x-axis as the Saleae timing |
 
 ## Measured Timing
 
@@ -54,6 +54,23 @@ Request `0x0000` projects this `DL` sequence:
 | `R1` through `R16` | 16 scan data bits, LSB first | `0` |
 
 The FPGA updates `TM`, `DR`, and `DL` on falling clock edges. Caravel samples them on rising clock edges.
+
+## ADC Timing Alignment
+
+The plot aligns ADC samples to the timing diagram with host monotonic timestamps:
+
+`adc_t_reset_s = adc_csv_t_s + adc_start_monotonic - saleae_start_monotonic - trim_data_seconds`
+
+For this capture:
+
+| Item | Value |
+| --- | ---: |
+| `adc_start_monotonic - saleae_start_monotonic` | `-0.289740112 s` |
+| `trim_data_seconds` | `1.05 s` |
+| ADC time shift applied | `-1.339740112 s` |
+| Nearest ADC sample to scan packet | `0.475 s` after reset release |
+
+The ADC samples are aligned to the reset-relative timeline, but they are not microsecond-resolved inside the `8.48 us` scan packet.
 
 ## Connection Backup
 
@@ -148,7 +165,7 @@ ADC/DAC connection and rail backup:
 
 ## Corrected ADC Current Measurements
 
-These currents are measured during the corrected-DAC-power rerun. ADC samples are run-level measurements and are not microsecond-resolved inside the `8.48 us` scan packet.
+These currents are measured during the corrected-DAC-power rerun and are shown as time-aligned ADC sample traces in the latest plot. ADC samples are not microsecond-resolved inside the `8.48 us` scan packet.
 
 | ADC pair | Mean current | Min | Max | Samples |
 | --- | ---: | ---: | ---: | ---: |
