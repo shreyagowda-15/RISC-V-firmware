@@ -42,7 +42,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected
 
-![Sixth last run timing and currents](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png)
+![Sixth last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png)
+
+![Sixth last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -78,7 +82,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 2. Fifth Last Run: `0x8000`, `Vcc_set = 2.5 V`
 
-![Fifth last run timing and currents](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png)
+![Fifth last run timing and currents, PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png)
+
+![Fifth last run timing and currents, SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -116,7 +124,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 3. Fourth Last Run: `0x0000`, `Vcc_set = 2.5 V`
 
-![Fourth last run timing and currents](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+![Fourth last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+
+![Fourth last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -152,7 +164,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 4. Third Last Run: `0x0000`, `Vcc_set = 1.7 V`
 
-![Third last run timing and currents](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+![Third last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+
+![Third last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -188,7 +204,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 5. Second Last Run: `0x8000`, `Vcc_set = 2.5 V`
 
-![Second last run timing and currents](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+![Second last run timing and currents, PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+
+![Second last run timing and currents, SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -226,7 +246,11 @@ The zoom current values are measured on the same Saleae time scale as the timing
 
 ## 6. Last Run: `0x0000`, `Vcc_set = 1.7 V`
 
-![Last run timing and currents](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+![Last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+
+![Last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
+
+Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
