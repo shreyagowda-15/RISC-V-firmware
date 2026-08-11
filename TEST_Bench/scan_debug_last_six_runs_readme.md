@@ -40,7 +40,7 @@ Saleae channels used for this set:
 
 The zoom current values are measured on the same Saleae time scale as the timing diagram. ADC values are full-run context values because the ADC sampling did not necessarily land inside the microsecond scan-debug zoom window.
 
-## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected
+## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected {RESET MODE}
 
 ![Figure 1a: sixth last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale_figure1.png)
 
