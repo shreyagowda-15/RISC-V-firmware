@@ -31,22 +31,20 @@ Saleae channels used for this set:
 
 | Reverse order | Capture time | Packet | `Vcc_set` | Decoded word | 16th bit | Set current, zoom mean | Reset current, zoom mean | Plot |
 |---:|---|---:|---:|---:|---:|---:|---:|---|
-| 6th last | 2026-08-11 12:28:28 | `0x0000` | 2.5 V | `0x0000` | 0 | 336.92 uA | 12.32 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png) |
-| 5th last | 2026-08-11 12:38:39 | `0x8000` | 2.5 V | `0x8000` | 1 | 403.33 uA | 652.62 uA | [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png) |
-| 4th last | 2026-08-11 12:51:04 | `0x0000` | 2.5 V | `0x0000` | 0 | 330.12 uA | 753.58 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png) |
-| 3rd last | 2026-08-11 16:13:57 | `0x0000` | 1.7 V | `0x0000` | 0 | -235.20 uA | 1.98 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png) |
-| 2nd last | 2026-08-11 16:31:07 | `0x8000` | 2.5 V | `0x8000` | 1 | -95.47 uA | 4.03 uA | [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png) |
-| Last | 2026-08-11 16:39:42 | `0x0000` | 1.7 V | `0x0000` | 0 | -87.08 uA | 135.30 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png) |
+| 6th last | 2026-08-11 12:28:28 | `0x0000` | 2.5 V | `0x0000` | 0 | 336.92 uA | 12.32 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale_figure1.png) |
+| 5th last | 2026-08-11 12:38:39 | `0x8000` | 2.5 V | `0x8000` | 1 | 403.33 uA | 652.62 uA | [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale_figure2.png) |
+| 4th last | 2026-08-11 12:51:04 | `0x0000` | 2.5 V | `0x0000` | 0 | 330.12 uA | 753.58 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure3.png) |
+| 3rd last | 2026-08-11 16:13:57 | `0x0000` | 1.7 V | `0x0000` | 0 | -235.20 uA | 1.98 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure4.png) |
+| 2nd last | 2026-08-11 16:31:07 | `0x8000` | 2.5 V | `0x8000` | 1 | -95.47 uA | 4.03 uA | [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure5.png) |
+| Last | 2026-08-11 16:39:42 | `0x0000` | 1.7 V | `0x0000` | 0 | -87.08 uA | 135.30 uA | [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure6.png) |
 
 The zoom current values are measured on the same Saleae time scale as the timing diagram. ADC values are full-run context values because the ADC sampling did not necessarily land inside the microsecond scan-debug zoom window.
 
 ## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected
 
-![Sixth last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png)
+![Figure 1a: sixth last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale_figure1.png)
 
-![Sixth last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale_figure1.png), [original PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -82,11 +80,9 @@ Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828
 
 ## 2. Fifth Last Run: `0x8000`, `Vcc_set = 2.5 V`
 
-![Fifth last run timing and currents, PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png)
+![Figure 2a: fifth last run timing and currents, numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale_figure2.png)
 
-![Fifth last run timing and currents, SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale_figure2.png), [original PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -124,11 +120,9 @@ Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839
 
 ## 3. Fourth Last Run: `0x0000`, `Vcc_set = 2.5 V`
 
-![Fourth last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+![Figure 3a: fourth last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure3.png)
 
-![Fourth last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure3.png), [original PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -164,11 +158,9 @@ Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104
 
 ## 4. Third Last Run: `0x0000`, `Vcc_set = 1.7 V`
 
-![Third last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+![Figure 4a: third last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure4.png)
 
-![Third last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure4.png), [original PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -204,11 +196,9 @@ Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357
 
 ## 5. Second Last Run: `0x8000`, `Vcc_set = 2.5 V`
 
-![Second last run timing and currents, PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png)
+![Figure 5a: second last run timing and currents, numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure5.png)
 
-![Second last run timing and currents, SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure5.png), [original PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.png), [SVG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
@@ -246,11 +236,9 @@ Artifacts: [PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107
 
 ## 6. Last Run: `0x0000`, `Vcc_set = 1.7 V`
 
-![Last run timing and currents, PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png)
+![Figure 6a: last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure6.png)
 
-![Last run timing and currents, SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
-
-Artifacts: [PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
+Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure6.png), [original PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.png), [SVG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale.svg)
 
 | Item | Value |
 |---|---|
