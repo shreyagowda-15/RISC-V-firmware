@@ -1,7 +1,9 @@
 # Last Six FPGA Scan-Debug Runs
 
-This file summarizes the last six FPGA-driven scan-debug experiments in reverse order, starting with the sixth-last run and ending with the latest run. The FPGA drives scan-debug control/data on the falling edge of `wb_clk_i`; Caravel samples on the rising edge. Current is computed from the Saleae analog shunt probes using a 1 kohm shunt:
-
+This file summarizes the last six FPGA-driven scan-debug experiments in reverse order, starting with the sixth-last run and ending with the latest run. The FPGA drives scan-debug control/data on the falling edge of `wb_clk_i`; Caravel samples on the rising edge. Current is computed from the Saleae analog shunt probes using a 1 kohm shunt
+LA-12 connected to vcc_set 
+LA-14 connected to vcc_reset 
+if the current is negative which means the current is going outside the chip.
 `I = (V_plus - V_minus) / 1000 ohm`
 
 Common DAC setup unless otherwise noted:
@@ -40,7 +42,7 @@ Saleae channels used for this set:
 
 The zoom current values are measured on the same Saleae time scale as the timing diagram. ADC values are full-run context values because the ADC sampling did not necessarily land inside the microsecond scan-debug zoom window.
 
-## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected
+## 1. Sixth Last Run: `0x0000`, `Vcc_set = 2.5 V`, Set Shunt Reconnected (reset mode)
 
 ![Figure 1a: sixth last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_122828_fast_saleae_vccset2v5_setshunt_reconnected_currents_same_timescale_figure1.png)
 
@@ -78,7 +80,7 @@ Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_res
 | ADC set, full run | -24.84 uA |  |  |  | 27 |
 | ADC reset, full run | -17.52 uA |  |  |  | 27 |
 
-## 2. Fifth Last Run: `0x8000`, `Vcc_set = 2.5 V`
+## 2. Fifth Last Run: `0x8000`, `Vcc_set = 2.5 V` (set mode)
 
 ![Figure 2a: fifth last run timing and currents, numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_123839_fast_saleae_j10_7_dl_oneclk_vccset2v5_rerun_currents_same_timescale_figure2.png)
 
@@ -118,7 +120,7 @@ Artifacts: [numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_res
 | ADC set, full run | -25.15 uA |  |  |  | 19 |
 | ADC reset, full run | -705.88 uA |  |  |  | 19 |
 
-## 3. Fourth Last Run: `0x0000`, `Vcc_set = 2.5 V`
+## 3. Fourth Last Run: `0x0000`, `Vcc_set = 2.5 V` (reset mode)
 
 ![Figure 3a: fourth last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_125104_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure3.png)
 
@@ -156,7 +158,7 @@ Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_res
 | ADC set, full run | -25.23 uA |  |  |  | 13 |
 | ADC reset, full run | -801.30 uA |  |  |  | 13 |
 
-## 4. Third Last Run: `0x0000`, `Vcc_set = 1.7 V`
+## 4. Third Last Run: `0x0000`, `Vcc_set = 1.7 V` (read mode)
 
 ![Figure 4a: third last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_161357_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure4.png)
 
@@ -194,7 +196,7 @@ Artifacts: [numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_res
 | ADC set, full run | -26.20 uA |  |  |  | 84 |
 | ADC reset, full run | -34.42 uA |  |  |  | 84 |
 
-## 5. Second Last Run: `0x8000`, `Vcc_set = 2.5 V`
+## 5. Second Last Run: `0x8000`, `Vcc_set = 2.5 V` (set mode)
 
 ![Figure 5a: second last run timing and currents, numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_reset_163107_fast_saleae_vccset2v5_rerun_currents_same_timescale_figure5.png)
 
@@ -234,7 +236,7 @@ Artifacts: [numbered PNG](scan_debug_req8000_2026-08-11/fpga_scan8000_manual_res
 | ADC set, full run | -25.99 uA |  |  |  | 40 |
 | ADC reset, full run | -35.02 uA |  |  |  | 40 |
 
-## 6. Last Run: `0x0000`, `Vcc_set = 1.7 V`
+## 6. Last Run: `0x0000`, `Vcc_set = 1.7 V` (read mode)
 
 ![Figure 6a: last run timing and currents, numbered PNG](scan_debug_req0000_2026-08-11/fpga_scan0000_manual_reset_163942_fast_saleae_vccset1v7_rerun_currents_same_timescale_figure6.png)
 
