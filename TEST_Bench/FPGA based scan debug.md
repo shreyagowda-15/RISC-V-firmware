@@ -181,3 +181,12 @@ These currents are measured during the corrected-DAC-power rerun and are shown a
 - Timing capture: `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/analysis.json`
 - ADC data: `scan_debug_req0000_2026-08-10/capture_122001_corrected_dac_power/adc_monitor.csv`
 - Clock check: `scan_debug_req0000_2026-08-10/capture_122255_corrected_dac_d3_health/analysis.json`
+
+
+## cadance simulation for scandebug mode for set 
+
+<img width="1600" height="735" alt="image" src="https://github.com/user-attachments/assets/149ee5ab-0a12-430e-aa40-44e8a1f2d99c" />
+
+## cadance simulation for scandebug mode for reset 
+
+<img width="1600" height="716" alt="image" src="https://github.com/user-attachments/assets/2d30ec2b-74f7-4820-8bac-25ba031b832a" />
